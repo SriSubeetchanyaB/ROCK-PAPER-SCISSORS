@@ -1,0 +1,39 @@
+/* game.css */
+
+body {
+    background: linear-gradient(135deg, #d1c4e9, #b39ddb);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #4a148c;
+    text-shadow: 1px 1px 2px #ccc;
+    margin-top: 40px;
+}
+
+div {
+    background-color: #f3e5f5;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-top: 50px;
+}
+
+button {
+    background-color: #7e57c2;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5e35b1;
+}
